@@ -30,6 +30,7 @@ services:
       DB_PASS: 1234
       DB_NAME: pcos_db
       DB_PORT: 5432
+      FRONTEND_URL: http://localhost:3000
     ports:
       - "8080:8080"
   ml-service:
